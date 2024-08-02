@@ -1,17 +1,12 @@
 import React from "react";
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import Login from "./screen/Login";
 import Sign from "./screen/Signup";
 import Forgot from "./screen/Forget";
 import Home from "./screen/Home";
-
 import Pannel from "./screen/pannel";
-
 import Rest from "./screen/Resetpassword";
 import ProfileCard from "./screen/ProfileCard";
-
 function App() {
   return (
     <BrowserRouter>
@@ -27,5 +22,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
